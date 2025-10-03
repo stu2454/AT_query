@@ -35,6 +35,7 @@ Then open http://localhost:8501
 - **Sidebar knowledge base** lists uploaded PDFs with page counts and indexing status (Indexed ✅ / Pending).
 - **Rebuild index button** to regenerate embeddings when adding new documents.
 - **Clear index button** in sidebar to reset the knowledge base.
+- **Persistent local storage** of FAISS index and metadata (documents remain indexed between sessions).
 
 ---
 
