@@ -1,0 +1,11 @@
+
+services:
+  research-assistant:
+    build: .
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./papers:/app/papers
+      - ./data:/app/data
+    env_file:
+      - .env
