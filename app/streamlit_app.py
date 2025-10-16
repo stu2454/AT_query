@@ -30,8 +30,8 @@ runtime = boto3.client(
 # -------------------------------
 # Streamlit UI setup
 # -------------------------------
-st.set_page_config(page_title="Assistive Technology Knowledge Finder", layout="wide")
-st.title("🦾 Assistive Technology Knowledge Finder (Titan + Nova Pro)")
+st.set_page_config(page_title="My Research Assistant", layout="wide")
+st.title("🦾 My Research Assistant (Titan + Nova Pro)")
 
 uploaded_files = st.file_uploader(
     "Upload PDFs", type=["pdf"], accept_multiple_files=True
